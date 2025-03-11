@@ -18,6 +18,6 @@
     // Метод для получения информации о меню
     public string Info()
     {
-        return $"Main Course: {MainCourse}, Side Dishes: {SideDishes}, Drink: {Drink}, Dessert: {Dessert}";
+        return $"Fel principal: {MainCourse}, Garnituri: {SideDishes}, Bautura: {Drink}, Dessert: {Dessert}";
     }
 }

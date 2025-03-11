@@ -9,6 +9,7 @@ namespace RestaurantManagement.Models
         public int CapacitateMaxima { get; set; }
 
         // Constructor fără parametri
+
         public GestionareComenziRestaurant()
         {
             Comenzi = new List<ComandaRestaurant>();

@@ -48,28 +48,28 @@ namespace Proiect_PIU
 
         static ComandaRestaurant CitesteComanda()
         {
-            Console.Write("Introdu ID comanda: ");
+            Console.Write("Introdu ID comandei: ");
             int id = int.Parse(Console.ReadLine());
 
-            Console.Write("Introdu numar persoane: ");
+            Console.Write("Introdu Numarul Mesei: ");
             int numarPersoane = int.Parse(Console.ReadLine());
 
-            Console.Write("Introdu pret total: ");
+            Console.Write("Introdu Pretul Total: ");
             double pretTotal = double.Parse(Console.ReadLine());
 
-            Console.Write("Introdu status comanda: ");
+            Console.Write("Introdu Statusul Comanda: ");
             string status = Console.ReadLine();
 
-            Console.Write("Introdu fel principal: ");
+            Console.Write("Introdu Felul Principal: ");
             string felPrincipal = Console.ReadLine();
 
-            Console.Write("Introdu garnitura: ");
+            Console.Write("Introdu Garnitura: ");
             string garnitura = Console.ReadLine();
 
-            Console.Write("Introdu bautura: ");
+            Console.Write("Introdu Bautura: ");
             string bautura = Console.ReadLine();
 
-            Console.Write("Introdu desert: ");
+            Console.Write("Introdu Desertul: ");
             string desert = Console.ReadLine();
 
             MenuRestaurant menu = new MenuRestaurant(felPrincipal, garnitura, bautura, desert);

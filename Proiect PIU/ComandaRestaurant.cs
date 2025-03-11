@@ -19,6 +19,6 @@
 
     public string Info()
     {
-        return $"ID: {IDComanda}, Masa: {NrMasa}, Pret: {PretTotal}, Stare: {StareComanda}, Meniu: {Menu.Info()}";
+        return $"ID: {IDComanda}, NrMesei: {NrMasa}, Pretul: {PretTotal}, Starea Comandei: {StareComanda}, Meniu: {Menu.Info()}";
     }
 }
